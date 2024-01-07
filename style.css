@@ -1,0 +1,49 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1px;
+}
+
+.bar {
+    width: 20px;
+    margin: 0 1px;
+    background-color: #3498db;
+}
+
+.bar-value {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+button{
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.highlight:hover, .highlight:focus{
+    background-color: #7ec3f2;
+}
